@@ -1,0 +1,513 @@
+//---------------------Colors--------------------
+$graay:#CBCBCB;
+$bluehover: #01ABC7;
+$ocher: #F16323;
+$yallow: #F9C317;
+$notblack: #4C4C4C;
+$lightgrey: #7f7f7f;
+//---------------------//Colors------------------
+
+//---------------------About Us------------------
+.header-cont-mobile{
+  @media screen and (max-width: 755px){
+    margin-top: -25px;
+  }
+}
+
+
+.about-main-div{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1550px;
+  margin-top: -25px;
+}
+
+.about-video-cont{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	position: relative;
+  @media screen and (max-width: 1140px){
+    padding-top: 80px;
+  }
+  @media screen and (max-width: 750px){
+    padding-top: 30px; 
+  }
+}
+
+.vimeo-MSC{
+  width: 100% !important;
+  height: calc(100% + 300px) !important;
+  margin-top: -150px;
+}
+
+// .play-img-cont{
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   width: 300px;
+//   height: 300px;
+//   transform: translatey(50%);
+// }
+
+// .play-img{
+//   position: absolute;
+//   top: -70%;
+//   left: -14%;
+//   width: 30%;
+//   height: auto;
+// }
+
+// #play2 {
+//   width: 12%;
+//   top: -63.5%;
+//   left: -3%;
+// }
+
+.about-video-title{
+	position: absolute;
+	z-index: 50;
+	top: calc(45px + 15%);
+	color: white;
+	left: 7.5%;
+	p{
+		text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+    text-align: left;
+	}
+  @media screen and (max-width: 1250px){
+    top: 155px;
+  }
+  @media screen and (max-width: 755px){
+    display: none;
+  }
+}
+
+.about-video-text {
+  height: 130px;
+  @media screen and (max-width: 755px){
+    height: 410px;
+  }
+  @media screen and (max-width: 375px){
+    height: 420px;
+  }
+  @media screen and (max-width: 360px){
+    height: 435px;
+  }
+  @media screen and (max-width: 320px){
+    height: 470px;
+  }
+}
+
+.medicos-text{
+  position: relative;
+  top: -10%;
+  width: 70%; //For 2 doctor slide
+  background-color: white;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 50px;
+  padding-bottom: 3%;
+  transform: translateY(-70%);
+  margin-left: auto;
+  margin-right: auto;
+  p{
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    padding-top: 10px;
+    @media screen and (max-width: 1250px){
+      font-size: 15px;
+    }
+    @media screen and (max-width: 1090px){
+      font-size: 13px;
+    }
+    @media screen and (max-width: 850px){
+      font-size: 12px;
+      line-height: 17px;
+    }
+  } 
+  
+  @media screen and (max-width: 1100px){
+    padding-top: 40px;
+  }
+  @media screen and (max-width: 950px){
+    padding-top: 30px;
+    padding-bottom: 3%;
+  }
+  // @media screen and (max-width: 950px){
+  //   padding-left: 120px;
+  //   padding-right: 50px;
+  // }
+  @media screen and (max-width: 750px){
+    width: 80%;
+    transform: translateY(-5%);    
+    position: relative;
+    padding-top: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  // @media screen and (max-width: 375px){  
+  //   transform: translateY(-47%);
+  //   top: 67%;
+  // }
+  // @media screen and (max-width: 360px){  
+  //   transform: translateY(-40%);
+  //   padding-bottom: 50px;
+  // }
+}
+
+.medicos-text > p{
+  @media screen and (max-width: 755px){
+    display: block;
+    font-size: 15px;
+    padding-right: 6%;
+    padding-left: 6%;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+}
+
+.medicos-text-2{
+  margin: 0;
+  text-align: left;
+  padding-left: 15px;
+  border-left: 5px $bluehover solid;
+  margin-bottom: 5%;
+  margin-top: 20px;
+  padding-top: 10px;
+  // @media screen and (max-width: 950px){
+  //   border-left: 3px white solid;
+  // }
+  @media screen and (max-width: 755px){
+    border-left: 5px white solid;
+  }
+  h1{
+    font-size: 37px;
+    color: $bluehover;
+    line-height: 20px;
+    font-weight: 900;
+    @media screen and (max-width: 1250px){
+      font-size: 36px;
+    }
+    @media screen and (max-width: 1165px){
+      font-size: 32px;
+    } 
+    @media screen and (max-width: 1100px){
+      line-height: 34px;
+    }
+    @media screen and (max-width: 1090px){
+      font-size: 32px;
+      line-height: 30px;
+    }
+    @media screen and (max-width: 1000px){
+      font-size: 26px;
+    }
+    @media screen and (max-width: 950px){
+      font-size: 22px;
+      line-height: 22px;
+    }
+    @media screen and (max-width: 755px){
+      padding-top: 4px;
+      font-size: 22px;
+    }
+    @media screen and (max-width: 375px){
+      font-size: 20px;
+    }
+    @media screen and (max-width: 360px){
+      font-size: 18px;
+    }
+    @media screen and (max-width: 320px){
+      font-size: 16px;
+    }
+  }
+  p{
+    margin-top: 1%;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    // @media screen and (max-width: 1250px){
+    //   margin-top: 0px;
+    // }
+    // @media screen and (max-width: 1165px){
+    //   margin:0;
+    //   padding:0;
+    // }  
+    @media screen and (max-width: 755px){
+      text-transform: uppercase;
+      font-style: normal;
+      margin-top: 0px;
+      padding-top: 5px;
+      font-size: 12px;
+    }
+    @media screen and (max-width: 360px){
+      font-size: 11px;
+    }
+    @media screen and (max-width: 360px){
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 755px){
+    margin-top: 0;
+    padding-top: 5px;
+  }
+}
+
+.about-ribbon{
+  height: 10px;
+  width: 70%;
+  padding: 0;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+
+  background: #24B9C9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #24B9C9,#0F7780); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #24B9C9, #0F7780 ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #24B9C9, #0F7780 ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #24B9C9, #0F7780); /* Standard syntax */ 
+  @media screen and (max-width: 750px){
+    height: 5px;
+  }
+}
+
+.about-cta-1{
+  height: 360px;
+  background-color: wheat;
+  @media screen and (max-width: 755px){
+    height: 145px;
+  }
+}
+
+.about-info{
+  position: relative;
+}
+
+.about-info-text-cont{
+  width: 50%;
+  height: 100%;
+  background-color: rgba(1, 171, 199, 0.5);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  @media screen and (max-width: 755px){
+    position: relative;
+    width: 100%;
+    top: unset;
+    left: unset;
+  }
+}
+
+.about-info-text{
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  p{
+    text-align: left;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 22px;
+    line-height: 35px;
+    @media screen and (max-width: 1168px){
+      font-size: 20px;
+    }
+    @media screen and (max-width: 1062px){
+      font-size: 18px;
+      line-height: 31px;
+    }
+    @media screen and (max-width: 962px){
+      font-size: 16px;
+      line-height: 27px;
+    }
+    @media screen and (max-width: 848px){
+      font-size: 14px;
+      line-height: 23px;
+    }
+    @media screen and (max-width: 755px){
+      font-size: 19px;
+      line-height: 26px;
+    }
+  }
+  @media screen and (max-width: 755px){
+    position: relative;
+    top: 0%;
+    transform: translatey(0%);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background: #24B9C9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #24B9C9,#0F7780); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #24B9C9, #0F7780 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #24B9C9, #0F7780 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #24B9C9, #0F7780); /* Standard syntax */ 
+  }
+}
+
+.md-gallery-img-i{
+  padding:0;
+  margin: 0;
+  position: relative;
+}
+
+.md-gallery-img{
+  position: relative;
+  border: 1px white solid;
+}
+
+.about-cta-2{
+  height: 320px;
+  background-color: wheat;
+  @media screen and (max-width: 755px){
+    height: 140px;
+  }
+}
+
+.md-gallery-overlay{
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+
+
+  background: #24B9C9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* Standard syntax */ 
+}
+
+.md-gallery-overlay-text{
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  padding: 0 10%;
+  h1{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 44px;  
+    @media screen and (max-width: 1492px){
+      font-size: 28px;
+      line-height: 40px;
+    }
+    @media screen and (max-width: 1388px){
+      font-size: 26px;
+      line-height: 36px;
+    }
+    @media screen and (max-width: 1289px){
+      font-size: 24px;
+      line-height: 32px;
+    }
+    @media screen and (max-width: 1188px){
+      font-size: 22px;
+      line-height: 28px; 
+    }
+    @media screen and (max-width: 1094px){
+      font-size: 20px;
+      line-height: 24px; 
+    }
+    @media screen and (max-width: 982px){
+      font-size: 18px;
+    }
+    @media screen and (max-width: 892px){
+      font-size: 16px;
+      line-height: 20px; 
+    }
+    @media screen and (max-width: 862px){
+      font-size: 15px;
+      line-height: 18px; 
+    }
+    @media screen and (max-width: 830px){
+      font-size: 14px;
+      line-height: 16px; 
+    }
+    @media screen and (max-width: 783px){
+      font-size: 13px;
+      line-height: 14px; 
+    }
+  }
+  h2{
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 3%;
+    @media screen and (max-width: 1492px){
+      font-size: 17px;
+    }
+    @media screen and (max-width: 1388px){
+      font-size: 15px;
+    } 
+    @media screen and (max-width: 1188px){
+      font-size: 14px;
+      line-height: 20px; 
+    }
+    @media screen and (max-width: 1094px){
+      line-height: 16px; 
+    }
+    @media screen and (max-width: 862px){
+      line-height: 15px; 
+    }
+    @media screen and (max-width: 830px){
+      font-size: 13px;
+    }
+    @media screen and (max-width: 783px){
+      font-size: 12px;
+    }
+  }
+  p{
+    color: white;
+    font-size: 19px;
+    padding-top: 7.5%;
+    @media screen and (max-width: 1492px){
+      font-size: 17px;
+    }
+    @media screen and (max-width: 1388px){
+      font-size: 15px;
+    }
+    @media screen and (max-width: 1188px){
+      font-size: 14px;
+      line-height: 20px; 
+    }
+    @media screen and (max-width: 1094px){
+      line-height: 16px; 
+      padding-top: 2%;
+      margin-bottom: 0;
+    }
+    @media screen and (max-width: 862px){
+      line-height: 15px; 
+    }
+    @media screen and (max-width: 830px){
+      font-size: 13px;
+    }
+    @media screen and (max-width: 783px){
+      font-size: 12px;
+    }
+  }
+}
+
+//------------------Overlay hover----------------
+
+$number-list: 1 2 3 4 5 6 7 8 9l;
+@each $current-number in $number-list {
+  $i: index($number-list, $current-number);
+  #md-0#{$i} { 
+    &:hover #md-0#{$i}-o{
+      opacity: 1;
+    }
+  }
+}
+
+.md-gallery-overlay{
+  @media screen and (max-width: 755px){
+    display: none;
+  }
+}
+
+//------------------//Overlay hover--------------
+
+//---------------------//About Us----------------

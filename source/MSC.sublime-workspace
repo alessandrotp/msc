@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex-basis"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ALIGN",
+				"align-items"
+			],
+			[
+				"accord",
+				"accordion-menu"
+			],
+			[
+				"htt",
+				"https"
+			],
+			[
+				"www",
+				"www.medicasantacarmen.com"
+			],
+			[
+				"header-",
+				"header-cont-mobile\t header.css.scss"
+			],
+			[
+				"med",
+				"medium-5\t foundation.css"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"map",
+				"map-right\t clinicas.css.scss"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"medi",
+				"medicos-text\t site.css.scss"
+			],
+			[
+				"id",
+				"id=〔attribute〕"
+			],
+			[
+				"about",
+				"about-cta-1"
+			],
+			[
+				"small",
+				"small-4\t foundation.css"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"about-",
+				"about-video-cont\t about_us.css.scss"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"pe",
+				"peritoneal"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"servic",
+				"servicios-text"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"large",
+				"large-offset-2"
+			],
+			[
+				"larg",
+				"large-6"
+			],
+			[
+				"lar",
+				"large-6"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"large-o",
+				"large-offset-2"
+			],
+			[
+				"ab",
+				"about-slide-2\t about.css.scss"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"service",
+				"service-title\t header_menu.css.scss"
+			],
+			[
+				"foo",
+				"footer-col-3-m\t site.css.scss"
+			],
+			[
+				"foot",
+				"footer-col-1\t site.css.scss"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"medium",
+				"medium-6"
+			],
+			[
+				"medum",
+				"medium-6"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html.erb",
+			"settings":
+			{
+				"buffer_size": 27345,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_header.erb",
+			"settings":
+			{
+				"buffer_size": 5272,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/peggysue/Desktop/ProgressButton/ProgressButtonStyles/index.html",
+			"settings":
+			{
+				"buffer_size": 6020,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/site.css.scss",
+			"settings":
+			{
+				"buffer_size": 27767,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/peggysue/Desktop/testbutton/source/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/header.css.scss",
+			"settings":
+			{
+				"buffer_size": 8924,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/clinicas.css.scss",
+			"settings":
+			{
+				"buffer_size": 8892,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 252.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"acka",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 342.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/peggysue/MSC/source",
+		"/home/peggysue/MSC/source/javascripts",
+		"/home/peggysue/MSC/source/layouts",
+		"/home/peggysue/MSC/source/stylesheets"
+	],
+	"file_history":
+	[
+		"/home/peggysue/MSC/source/stylesheets/clinicas.css.scss",
+		"/home/peggysue/MSC/source/_footer.erb",
+		"/home/peggysue/MSC/source/_header.erb",
+		"/home/peggysue/MSC/source/layouts/layout.erb",
+		"/home/peggysue/MSC/source/javascripts/all.js",
+		"/home/peggysue/MSC/source/stylesheets/footer.css.scss",
+		"/home/peggysue/MSC/source/stylesheets/header.css.scss",
+		"/home/peggysue/MSC/source/stylesheets/about-us.css.scss",
+		"/home/peggysue/MSC/source/about_us.html.erb",
+		"/home/peggysue/Downloads/Documentacion de valor",
+		"/home/peggysue/MSC/source/stylesheets/servicios.css.scss",
+		"/home/peggysue/MSC/source/servicios.html.erb",
+		"/home/peggysue/Desktop/Tamanos mobile",
+		"/home/peggysue/MSC/source/clinicas.html.erb",
+		"/home/peggysue/Downloads/analisis funcional ux collection suites",
+		"/home/peggysue/Collection/source/index.html.erb",
+		"/home/peggysue/Collection/source/stylesheets/site.css.scss",
+		"/home/peggysue/MSC/source/stylesheets/about_us.css.scss",
+		"/home/peggysue/MSC/source/stylesheets/site.css.scss",
+		"/home/peggysue/MSC/source/index.html.erb",
+		"/home/peggysue/MSC/source/stylesheets/test.css.scss",
+		"/home/peggysue/MSC/source/index.html.sublime-workspace",
+		"/home/peggysue/TSUWeb/source/stylesheets/site.css.scss",
+		"/home/peggysue/TSUWeb/source/index.html.erb",
+		"/home/peggysue/TSUWeb/source/layouts/layout.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/social_media_button.css.scss",
+		"/home/peggysue/TSUWeb/source/_social_media_button.erb",
+		"/home/peggysue/Desktop/sublime-lic",
+		"/home/peggysue/TSUWeb/source/stylesheets/vertical_menu.css.scss",
+		"/home/peggysue/TSUWeb/source/_vertical_menu.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/services_template.css.scss",
+		"/home/peggysue/TSUWeb/source/inbound_marketing.html.erb",
+		"/home/peggysue/TSUWeb/source/tech_solutions.html.erb",
+		"/home/peggysue/TSUWeb/source/visual_storytelling.rails",
+		"/home/peggysue/TSUWeb/source/brand_development.html.erb",
+		"/home/peggysue/TSUWeb/source/web_design.html.erb",
+		"/home/peggysue/TSUWeb/source/our_services.html.erb",
+		"/home/peggysue/TSUWeb/source/_footer.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/footer.css.scss",
+		"/home/peggysue/TSUWeb/source/stylesheets/about.css.scss",
+		"/home/peggysue/TSUWeb/source/services_template.scss",
+		"/home/peggysue/TSUWeb/source/about.html.erb",
+		"/home/peggysue/TSUWeb/source/stylesheets/our_services.css.scss",
+		"/home/peggysue/TSUWeb/source/stylesheets/our_services.html.erb",
+		"/home/peggysue/Elite/source/stylesheets/site.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/family.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/footer.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/header_menu.css.scss",
+		"/home/peggysue/Elite/source/family.html.erb",
+		"/home/peggysue/Elite/source/_footer.erb",
+		"/home/peggysue/Elite/source/_header_menu.erb",
+		"/home/peggysue/Elite/source/index.html.erb",
+		"/home/peggysue/Elite/source/stylesheets/concierge.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/service.css.scss",
+		"/home/peggysue/Elite/source/services.html.erb",
+		"/home/peggysue/Elite/source/property.html.erb",
+		"/home/peggysue/Elite/source/concierge.html.erb",
+		"/home/peggysue/Elite/source/layouts/layout.erb",
+		"/home/peggysue/Elite/source/javascripts/all.js",
+		"/home/peggysue/Elite/source/stylesheets/property.css.scss",
+		"/home/peggysue/Elite/source/stylesheets/test.scss",
+		"/home/peggysue/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-mousemap",
+		"/home/peggysue/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/peggysue/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/peggysue/Elite/source/msc.sublime-project",
+		"/home/peggysue/Elite/source/stylesheets/msc.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"60x70",
+			"){\n",
+			"1050px",
+			"title",
+			"front-cont",
+			"0.65",
+			"750",
+			"input",
+			"about",
+			"large-4 medium-4 small-6 columns",
+			"row expanded",
+			"row expanded ",
+			"0.75",
+			"0.5",
+			"back",
+			".about-ribbon{\n  height: 15px;\n  width: 70%;\n  padding: 0;\n  z-index: 10;\n  position: absolute;\n  top: 0;\n  width: 100%;\n  left: 0;\n\n  background: #24B9C9; /* For browsers that do not support gradients */\n  background: -webkit-linear-gradient(left, #24B9C9,#0F7780); /* For Safari 5.1 to 6.0 */\n  background: -o-linear-gradient(right, #24B9C9, #0F7780 ); /* For Opera 11.1 to 12.0 */\n  background: -moz-linear-gradient(right, #24B9C9, #0F7780 ); /* For Firefox 3.6 to 15 */\n  background: linear-gradient(to right, #24B9C9, #0F7780); /* Standard syntax */ \n}",
+			"40px",
+			"yellow",
+			"red",
+			"row",
+			"image_selector",
+			"tag",
+			"serices",
+			";\n",
+			"services-cont",
+			"tech-",
+			"visual-",
+			"inbound-",
+			"web-",
+			"brand-",
+			";\n",
+			"inbound",
+			"brand",
+			"brando",
+			"design",
+			"tech",
+			"Designq",
+			"class=\"about-sli",
+			"about-text",
+			"blog-img",
+			"transition",
+			"drawer",
+			"transition",
+			"hei",
+			"150px",
+			"%;\n",
+			"transition",
+			"lato"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"icon-map",
+			"1",
+			"textarea",
+			"clinicas",
+			"column column-block",
+			"row expanded small-up-2 medium-up-3 large-up-3",
+			"0.65",
+			"0.75",
+			"#0F7780",
+			"#24B9C9",
+			"servicios-text",
+			"image_tag",
+			"selector",
+			"services",
+			"serices-sub-cont",
+			"",
+			"visual",
+			"inbound",
+			"brand",
+			"design",
+			"id=\"about-sli",
+			"",
+			"our-services-img"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25352,
+								25352
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2852.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_header.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1832,
+								1832
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/peggysue/Desktop/ProgressButton/ProgressButtonStyles/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1546,
+								1546
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "stylesheets/site.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/peggysue/Desktop/testbutton/source/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "stylesheets/header.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5956,
+								5956
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2070.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "stylesheets/clinicas.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.540321230061,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "MSC.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

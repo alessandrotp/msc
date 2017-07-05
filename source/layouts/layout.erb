@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Médica Santa Carmen" %></title>
+	
+	<!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/Logo-Cruz-MSC.ico" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/11bd6509be.js"></script>
+
+    <!-- jquery -->
+    <script src="/javascripts/vendor/jquery.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Foundation -->    
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="/javascripts/what-input.js"></script>
+    <script src="/javascripts/foundation.js"></script>
+    <script src="/javascripts/foundation.accordion.js"></script>
+    <script src="/javascripts/app.js"></script>
+    <script src="/javascripts/foundation.accordionMenu.js"></script>
+    
+    <!-- Fullpage -->
+    <script type="text/javascript" src="javascripts/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.fullPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullPage.css" />
+    
+    <!-- Vimeo -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <!-- Google Code for Remarketing Tag -->
+    <!--Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var google_conversion_id = 876349786;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876349786/?guid=ON&amp;script=0"/>
+        </div>
+    </noscript> 
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '1780517468889569'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+     <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=1780517468889569&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+
+
+
+    <%= yield %>
+  </body>
+</html>

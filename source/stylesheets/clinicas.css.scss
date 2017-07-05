@@ -1,0 +1,461 @@
+//---------------------Colors--------------------
+$graay:#CBCBCB;
+$bluehover: #01ABC7;
+$ocher: #F16323;
+$yallow: #F9C317;
+$notblack: #4C4C4C;
+$lightgrey: #7f7f7f;
+//---------------------//Colors------------------
+
+//---------------------Clinicas------------------
+.header-cont-mobile{
+  @media screen and (max-width: 755px){
+    margin-top: -25px;
+  }
+}
+
+.clinicas-main-div{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1550px;
+	padding-top: 155px;
+	position: relative;
+	overflow: hidden;
+    margin-top: -25px;
+    @media screen and (max-width: 1284px){
+		padding-top: 153px;
+	}
+	@media screen and (max-width: 1200px){
+		padding-top: 152px;
+	}
+	@media screen and (max-width: 1140px){
+		padding-top: 132px;
+	}
+	@media screen and (max-width: 850px){
+		padding-top: 130px; 
+	}
+
+	@media screen and (max-width: 755px){
+		padding-top: 35px; 
+	}
+}
+
+.clinicas-info{
+	position: relative;
+	margin-bottom: 1%;
+}
+
+.clinicas-info-img {
+	@media screen and (max-width: 755px){
+		max-width: none;
+		width: 150%;
+	}
+}
+
+.clinicas-info-text-cont{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 60%;
+	background: #24B9C9; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, rgba(36,185,201,0.65),rgba(15,119,128,0.65)); /* Standard syntax */ 
+	@media screen and (max-width: 755px){
+		position: relative;
+		width: 100%;
+		top: unset;
+		left: unset;
+		background: #24B9C9; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left, rgba(36,185,201,1),rgba(15,119,128,1)); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, rgba(36,185,201,1),rgba(15,119,128,1)); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, rgba(36,185,201,1),rgba(15,119,128,1)); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, rgba(36,185,201,1),rgba(15,119,128,1)); /* Standard syntax */ 
+	}
+}
+
+.clinicas-info-text{
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	padding-left: 17.5%;
+	padding-right: 11%;
+	h1 {
+		font-weight: 900;
+		color: white;
+		font-size: 40px;
+		text-align: left;
+		line-height: 45px;
+		margin-bottom: 5%;
+
+		@media screen and (max-width: 1290px){
+			font-size: 38px;
+		}
+		@media screen and (max-width: 1223px){
+			font-size: 36px;
+		}
+		@media screen and (max-width: 1160px){
+			font-size: 34px;
+			line-height: 40px;
+		}
+		@media screen and (max-width: 1100px){
+			font-size: 32px;
+			line-height: 35px;
+		}
+		@media screen and (max-width: 1050px){
+			font-size: 30px;
+			line-height: 31px;
+		}
+		@media screen and (max-width: 964px){
+			font-size: 28px;
+			margin-bottom: 2.5%;
+			line-height: 29px;
+		}
+		@media screen and (max-width: 905px){
+			font-size: 27px;
+		}
+		@media screen and (max-width: 884px){
+			font-size: 24px;
+			line-height: 25px;
+		}
+		@media screen and (max-width: 776px){
+			font-size: 22px;
+		}
+	}	
+	span p{
+		color: white;
+		font-size: 21px;
+		text-align: left;
+		line-height: 30px;
+		padding-bottom: 5%;
+		@media screen and (max-width: 1520px){
+			font-size: 19px;
+		}
+		@media screen and (max-width: 1381px){
+			font-size: 17px;
+			line-height: 26px;
+		}
+		@media screen and (max-width: 1220px){
+			font-size: 15px;
+			line-height: 22px;
+		}
+		@media screen and (max-width: 1094px){
+			font-size: 14px;
+			line-height: 18px;
+		}
+		@media screen and (max-width: 1020px){
+			font-size: 13px;
+			line-height: 16px;
+		}
+		@media screen and (max-width: 783px){
+			font-size: 12px;
+			line-height: 14px;
+		}
+		@media screen and (max-width: 755px){
+			line-height: 16px;
+		}
+	}
+
+	h2 {
+		font-weight: 900;
+		font-size: 18px;
+		text-align: left;
+		color: white;
+		margin-bottom: 0.5%;
+		@media screen and (max-width: 1156px){
+			font-size: 18px;
+		}
+		@media screen and (max-width: 1075px){
+			font-size: 15px;
+		}
+		@media screen and (max-width: 902px){
+			font-size: 14px;
+		}
+		@media screen and (max-width: 846px){
+			font-size: 13px;
+		}
+	}
+	p {
+		text-align: left;
+		color: white;
+		font-size: 16px;
+		margin: 0;
+		@media screen and (max-width: 1100px){
+			font-size: 15px;
+		}
+		@media screen and (max-width: 902px){
+			font-size: 14px;
+			line-height: 18px;
+		}
+		@media screen and (max-width: 846px){
+			font-size: 13px;
+		}
+	}
+	@media screen and (max-width: 755px){
+		position: relative;
+		top: unset;
+		transform: translatey(0%);
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+.clinicas-info-text-left{
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	padding-left: 11%;
+	padding-right: 17.5%;
+	h1 {
+		text-align: right;
+		@media screen and (max-width: 755px){
+			text-align: left;
+		}
+	}	
+	span p{
+		text-align: right;
+		@media screen and (max-width: 755px){
+			text-align: left;
+		}
+	}
+	h2 {
+		text-align: right;
+		@media screen and (max-width: 755px){
+			text-align: left;
+		}
+	}
+	p {
+		text-align: right;
+		@media screen and (max-width: 755px){
+			text-align: left;
+		}
+	}
+	@media screen and (max-width: 755px){
+		position: relative;
+		top: unset;
+		transform: translatey(0%);
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+.clinicas-right{
+	left: 0%;
+	text-align:right;
+}
+
+.clinicas-map {
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	@media screen and (max-width: 755px){
+		right: 15%;
+		bottom: 6.5%;
+	}
+}
+
+.map-right{
+	left: -86.5%;
+	right: 0;
+	@media screen and (max-width: 755px){
+		left: unset;
+		right: 15%;
+		bottom: 6.5%;
+	}
+}
+
+.clinicas-contact-cont- {
+	padding-top: 10%;
+}
+
+.clinicas-contact-title {
+	width: 60%;
+	border-bottom: 10px #1DAAC2 solid;
+	// margin-bottom: 100px;
+	h1 {
+		color: #1DAAC2;
+		font-weight: 900;
+		font-size: 45px;
+		text-align: left;
+		margin-left: 16.5%;
+		@media screen and (max-width: 755px){
+			font-size: 25px;	
+		}
+	}
+	@media screen and (max-width: 1250px){
+		margin-bottom: 50px;
+	}
+	@media screen and (max-width: 1050px){
+		margin-bottom: 75px;
+	}
+	@media screen and (max-width: 950px){
+		margin-bottom: 100px;
+	}
+	@media screen and (max-width: 850px){
+		margin-bottom: 130px;
+	}
+	@media screen and (max-width: 755px){
+		font-size: 25px;	
+		border-bottom: 5px #1DAAC2 solid;
+		margin-bottom: 7.5%;
+	}
+}
+
+.contact-form-cont{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	padding: 0;
+	margin-bottom: 7.5%;
+	@media screen and (max-width: 755px){
+		width: 80%;
+	}
+}
+
+.contact-column-left {
+	position: absolute;
+	top: 100%;
+	transform: translatey(-100%);
+	padding:0;
+	border: none; 
+	padding-left: 3%;
+	padding-right: 3%;
+	p {
+		color: #1DAAC2;
+		text-align: left;
+		font-size: 20px;
+		font-weight: 700;
+		padding-bottom: 2.5%;
+		@media screen and (max-width: 755px){
+			font-size: 16px;
+		}
+	}
+	@media screen and (max-width: 755px){
+		position: relative;
+		top: 100%;
+		transform: translatey(0%);
+	}
+}
+
+[type="email"],[type="tel"], [type="text"]{
+	margin: 0;
+	border: 2px #1DAAC2 solid;
+	resize: none;
+	&:focus{
+		border-width: 2px;
+		border-color: #1DAAC2;
+		border-left: 7px #1DAAC2 solid;
+	}
+}
+
+.email, .phone{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.phone{
+	width: 95%;
+	float: right;
+	@media screen and (max-width: 755px){
+		width: 100%;
+	}
+}
+
+.name, .subject, .message{
+	width: 100%;
+	margin-bottom: 2.5%;	
+}
+
+.message {
+	height: 150px;
+}
+
+.contact-fields-2, .contact-fields-3{
+	padding: 0;
+}
+
+.contact-column-right{
+	padding:0;
+	border: none; 
+	padding-right: 3%;
+	@media screen and (max-width: 755px){
+		display: none;
+	}
+}
+
+.contact-cta{
+	float: right;
+	@media screen and (max-width: 900px){
+		transform: translatey(-10%);
+	}
+	@media screen and (max-width: 800px){
+		transform: translatey(-15%);
+	}
+}
+
+input::-webkit-input-placeholder {
+  color: $notblack;
+  font-style: italic;
+}
+
+input::-moz-placeholder {
+  color: $notblack;
+  font-style: italic;
+}
+
+input:-moz-placeholder {   /* Older versions of Firefox */
+  color: $notblack;
+  font-style: italic;
+}
+
+input:-ms-input-placeholder { 
+  color: $notblack;
+  font-style: italic;
+}
+
+textarea::-webkit-input-placeholder {
+  color: $notblack;
+  font-style: italic;
+}
+
+textarea::-moz-placeholder {
+  color: $notblack;
+  font-style: italic;
+}
+
+textarea:-moz-placeholder {   /* Older versions of Firefox */
+  color: $notblack;
+  font-style: italic;
+}
+
+textarea:-ms-input-placeholder { 
+  color: $notblack;
+  font-style: italic;
+}
+
+.submit_button {
+	width: 100%;
+	padding: 0;
+}
+
+.submit{
+	background:#1DAAC2;
+	color: white;
+	width: 18.5%;
+	padding: 0.5% 0;
+	border: none;
+	overflow: visible;
+	float: right;
+	font-size: 22px;
+	@media screen and (max-width: 755px){
+		font-size: 18px;
+		width: 35%;
+	}
+}
+//---------------------//Clinicas----------------

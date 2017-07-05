@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@media screen and (max-width: 755px) {
+  /* line 11, servicios.css.scss */
+  .header-cont-mobile {
+    margin-top: -25px; } }
+
+/* line 18, servicios.css.scss */
+.servicios-main-div {
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 24, servicios.css.scss */
+.fullwidth-img {
+  width: 100%; }
+
+/* line 28, servicios.css.scss */
+.front-text {
+  position: absolute;
+  top: 45%;
+  width: 60%;
+  background-color: rgba(66, 192, 206, 0.95);
+  padding-left: 110px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transform: translateY(-10%); }
+  /* line 38, servicios.css.scss */
+  .front-text p {
+    color: white;
+    text-align: left;
+    font-size: 26px;
+    padding-top: 10px; }
+    @media screen and (max-width: 1450px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 24px; } }
+    @media screen and (max-width: 1364px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 22px; } }
+    @media screen and (max-width: 1295px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 20px; } }
+    @media screen and (max-width: 1212px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 18px; } }
+    @media screen and (max-width: 1012px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 16px; } }
+    @media screen and (max-width: 862px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        font-size: 14px; } }
+    @media screen and (max-width: 800px) {
+      /* line 38, servicios.css.scss */
+      .front-text p {
+        line-height: 20px; } }
+  @media screen and (max-width: 755px) {
+    /* line 65, servicios.css.scss */
+    .front-text > p {
+      display: none; } }
+  @media screen and (max-width: 1100px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      padding-right: 100px; } }
+  @media screen and (max-width: 950px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-top: 30px;
+      padding-bottom: 20px; } }
+  @media screen and (max-width: 950px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-left: 120px;
+      padding-right: 50px; } }
+  @media screen and (max-width: 755px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      transform: translateY(0%);
+      position: relative;
+      margin-bottom: 5px;
+      padding-bottom: 30px;
+      background: #24B9C9;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, #0F7780, #24B9C9);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, #0F7780, #24B9C9);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, #0F7780, #24B9C9);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #0F7780, #24B9C9);
+      /* Standard syntax */ } }
+  @media screen and (max-width: 375px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media screen and (max-width: 360px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-bottom: 40px; } }
+  @media screen and (max-width: 320px) {
+    /* line 28, servicios.css.scss */
+    .front-text {
+      padding-left: 40px;
+      padding-right: 40px; } }
+
+/* line 111, servicios.css.scss */
+.front-text-2 {
+  margin: 0;
+  text-align: left;
+  padding-left: 35px;
+  border-left: 7px white solid; }
+  @media screen and (max-width: 950px) {
+    /* line 111, servicios.css.scss */
+    .front-text-2 {
+      border-left: 3px white solid; } }
+  @media screen and (max-width: 755px) {
+    /* line 111, servicios.css.scss */
+    .front-text-2 {
+      border-left: 5px white solid;
+      padding-left: 20px; } }
+  /* line 123, servicios.css.scss */
+  .front-text-2 p {
+    margin-top: 7px;
+    color: white;
+    font-weight: 400; }
+    @media screen and (max-width: 1250px) {
+      /* line 123, servicios.css.scss */
+      .front-text-2 p {
+        margin-top: 0px; } }
+    @media screen and (max-width: 1165px) {
+      /* line 123, servicios.css.scss */
+      .front-text-2 p {
+        margin: 0;
+        padding: 0; } }
+    @media screen and (max-width: 755px) {
+      /* line 123, servicios.css.scss */
+      .front-text-2 p {
+        font-style: normal;
+        margin-top: 5px;
+        font-size: 17px;
+        line-height: 23px; } }
+
+/* line 143, servicios.css.scss */
+.servicios-text {
+  padding-bottom: 3em; }
+  /* line 144, servicios.css.scss */
+  .servicios-text p {
+    color: black;
+    padding-left: calc(12.5% + 3.25em);
+    padding-left: -moz-calc(12.5% + 3.25em);
+    text-align: justify;
+    width: 80%;
+    font-size: 17px; }
+    @media screen and (max-width: 414px) {
+      /* line 144, servicios.css.scss */
+      .servicios-text p {
+        padding-left: 17.5%;
+        text-align: left;
+        width: 90%; } }
+    @media screen and (max-width: 375px) {
+      /* line 144, servicios.css.scss */
+      .servicios-text p {
+        padding-left: 16%; } }
+    @media screen and (max-width: 320px) {
+      /* line 144, servicios.css.scss */
+      .servicios-text p {
+        padding-left: 17%; } }
+  /* line 163, servicios.css.scss */
+  .servicios-text ul {
+    width: 80%; }
+    /* line 165, servicios.css.scss */
+    .servicios-text ul li {
+      text-align: left;
+      margin-left: calc(12.5% + 5.25em);
+      margin-left: -moz-calc(12.5% + 5.25em); }
+      @media screen and (max-width: 414px) {
+        /* line 165, servicios.css.scss */
+        .servicios-text ul li {
+          margin-left: 17.5%;
+          width: 90%; } }
+
+@media screen and (max-width: 414px) {
+  /* line 178, servicios.css.scss */
+  .accordion {
+    margin-bottom: 0px; } }
+
+/* line 184, servicios.css.scss */
+.accordion-title {
+  padding: 1.5em 1em;
+  margin-bottom: 10px;
+  border: 0px;
+  background: #24B9C9;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #24B9C9, #0F7780);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #24B9C9, #0F7780);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #24B9C9, #0F7780);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #24B9C9, #0F7780);
+  /* Standard syntax */
+  transition: all 0.25s ease-in-out 0.1s; }
+  @media screen and (max-width: 414px) {
+    /* line 184, servicios.css.scss */
+    .accordion-title {
+      margin-bottom: 5px;
+      padding-top: 0.85em;
+      padding-bottom: 0.75em;
+      font-size: 18px; } }
+
+/* line 203, servicios.css.scss */
+.accordion-title {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 12.5%; }
+  /* line 209, servicios.css.scss */
+  .accordion-title:hover, .accordion-title:focus {
+    color: white; }
+  @media screen and (max-width: 414px) {
+    /* line 203, servicios.css.scss */
+    .accordion-title {
+      font-size: 18px; } }
+
+/* line 217, servicios.css.scss */
+.is-active > .accordion-title::before {
+  content: '⌃';
+  top: 15px;
+  font-size: 40px; }
+  @media screen and (max-width: 414px) {
+    /* line 217, servicios.css.scss */
+    .is-active > .accordion-title::before {
+      top: 12px;
+      font-size: 30px; } }
+
+/* line 227, servicios.css.scss */
+.accordion-title::before {
+  content: '⌄';
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  margin-right: 0.75em;
+  font-size: 40px; }
+  @media screen and (max-width: 414px) {
+    /* line 227, servicios.css.scss */
+    .accordion-title::before {
+      font-size: 30px;
+      margin-right: 0px; } }
+
+/* line 240, servicios.css.scss */
+.accordion-item.is-active a {
+  color: #1DAAC2;
+  background: white;
+  font-weight: 900;
+  transition: all 0.25s ease-in-out 0.05s;
+  border: none; }
+
+/* line 248, servicios.css.scss */
+.accordion-content {
+  border: none; }

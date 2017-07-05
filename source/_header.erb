@@ -1,0 +1,120 @@
+<%= stylesheet_link_tag 'header' %>
+
+
+<div class="header-cont-mobile">
+		<%= image_tag "images/LogoMSC.png", :class => "menu-logo-mobile" %>
+		<%= image_tag "images/search-icon.png", :class => "menu-search-mobile" %>
+</div>	
+	<div class="search-bar-cont-mobile">
+		<div class="expanded row text-align-center">
+			<div class="large-6 medium-6 large-offset-4 medium-offset-4 columns search-box">
+				<form>
+					<input class="sb-search-input" placeholder="Ingresa lo que desees buscar" type="search" value="" name="search" id="search">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="header-cont-mobile-2">
+		<div class="flag-cont-mobile">
+			<a href="#"><%= image_tag "images/mex.jpg", :class => "flag-mobile" %></a>
+			<a href="#"><%= image_tag "images/usa.jpg", :class => "flag-mobile" %></a>
+		</div>
+		<div class="header-portal-mobile">
+			<span><a href="#"><p>PORTAL DEL <br> PACIENTE</p></a>
+		</div>
+	</div>	
+	<div class="mobile-menu">
+		<input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+		<label for="drawer-toggle" id="drawer-toggle-label"></label>
+		<nav id="drawer">
+			<div id="menu-mobile-item-1">
+				<%= image_tag "images/LogoMSC.png", :class => "menu-logo-mobile-2" %>	
+			</div>
+			<ul>
+				<li id="top-li-mobile-menu"><a href="http://www.medicasantacarmen.com">INICIO</a></li>
+				<li><a href="#">SOBRE NOSOTROS</a></li>
+				<li><a href="#">INFORMACIÓN PARA PACIENTES</a></li>
+				<li><a href="http://www.medicasantacarmen.com/servicios.html">SERVICIOS</a></li>
+				<li><a href="http://www.medicasantacarmen.com/clinicas.html">CLÍNICAS</a></li>
+				<li><a href="http://www.medicasantacarmen.com/pages/revisa">¡REVISA TU RIÑÓN!</a></li>
+				<li><a href="http://www.medicasantacarmen.com/pages/testimonios">NUESTRA DIFERENCIA</a></li>
+				<li class="mobile-menu-item-flex" id="top-li-mobile-menu-2"><%= image_tag "images/icon-wphone.png", :class => "wphone-icon" %>	
+					<p>01 (800) 681.8155</p></li>
+				<li class="mobile-menu-item-flex"><% link_to 'http://www.medicasantacarmen.com/clinicas.html', :target => "_blank" do %>
+  					<%= image_tag 'images/icon-wlocation.png', :class => "wphone-icon" %>
+					<% end %>				 
+					<% link_to 'http://www.medicasantacarmen.com/clinicas.html', :target => "_blank" do %>
+					<p>Encuéntranos</p>
+					<% end %>	
+
+				</li>
+			
+			</ul>
+		</nav>
+	</div>
+	<div class="header-cont">
+		<div class="header-phone">
+			<%= image_tag "images/icon-phone.png", :class => "phone-icon" %>	
+			<p>01 (800) 681.8155</p>
+			<% link_to 'http://www.medicasantacarmen.com/clinicas.html', :target => "_blank" do %>
+  				<%= image_tag 'images/icon-location.png', :class => "phone-icon" %>
+			<% end %>				 
+			<% link_to 'http://www.medicasantacarmen.com/clinicas.html', :target => "_blank" do %>
+				<p>Encuéntranos</p>
+			<% end %>				 
+		</div>
+		<div>
+			<div class="expanded row text-align-center header-col">
+				<div class="large-2 medium-2 columns">
+					<a href="http://www.medicasantacarmen.com"><%= image_tag "images/LogoMSC.png", :class => "menu-logo" %></a>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="#">Acerca de nosotros</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="#">Información del paciente</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="http://www.medicasantacarmen.com/servicios.html">Servicios</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="http://www.medicasantacarmen.com/clinicas.html">Clínicas</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="http://www.medicasantacarmen.com/pages/revisa">¡Revisa tu riñón!</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="http://www.medicasantacarmen.com/pages/testimonios">Nuestra Diferencia</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-hover">
+					<span><a href="http://blog.medicasantacarmen.com/">Blog</a></span>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-col-search">
+					<span><a href="#"><%= image_tag "images/search-icon.png", :class => "menu-search" %></a>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i header-portal">
+					<span><a href="#" class="orangee">PORTAL DEL PACIENTE</a>
+				</div>
+				<div class="large-1 medium-1 columns header-col-i">
+					<div class="row text-align-center">
+						<div class="large-6 medium-6 columns flag-col">
+							<a href="#"><%= image_tag "images/mex.jpg", :class => "flag" %></a>
+						</div>
+						<div class="large-6 medium-6 columns flag-col">
+							<a href="#"><%= image_tag "images/usa.jpg", :class => "flag" %></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search-bar-cont">
+			<div class="expanded row text-align-center">
+				<div class="large-6 medium-6 large-offset-4 medium-offset-4 columns search-box">
+					<form>
+						<input class="sb-search-input" placeholder="Ingresa lo que desees buscar" type="search" value="" name="search" id="search">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

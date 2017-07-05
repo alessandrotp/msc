@@ -1,0 +1,548 @@
+@media screen and (max-width: 755px) {
+  /* line 11, about-us.css.scss */
+  .header-cont-mobile {
+    margin-top: -25px; } }
+
+/* line 18, about-us.css.scss */
+.about-main-div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1550px;
+  margin-top: -25px; }
+
+/* line 25, about-us.css.scss */
+.about-video-cont {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  position: relative; }
+  @media screen and (max-width: 1140px) {
+    /* line 25, about-us.css.scss */
+    .about-video-cont {
+      padding-top: 80px; } }
+  @media screen and (max-width: 750px) {
+    /* line 25, about-us.css.scss */
+    .about-video-cont {
+      padding-top: 30px; } }
+
+/* line 38, about-us.css.scss */
+.vimeo-MSC {
+  width: 100% !important;
+  height: calc(100% + 300px) !important;
+  margin-top: -150px; }
+
+/* line 67, about-us.css.scss */
+.about-video-title {
+  position: absolute;
+  z-index: 50;
+  top: calc(45px + 15%);
+  color: white;
+  left: 7.5%; }
+  /* line 73, about-us.css.scss */
+  .about-video-title p {
+    text-shadow: 3px 3px 2px #969696;
+    text-align: left; }
+  @media screen and (max-width: 1250px) {
+    /* line 67, about-us.css.scss */
+    .about-video-title {
+      top: 155px; } }
+  @media screen and (max-width: 755px) {
+    /* line 67, about-us.css.scss */
+    .about-video-title {
+      display: none; } }
+
+/* line 85, about-us.css.scss */
+.about-video-text {
+  height: 130px; }
+  @media screen and (max-width: 755px) {
+    /* line 85, about-us.css.scss */
+    .about-video-text {
+      height: 410px; } }
+  @media screen and (max-width: 375px) {
+    /* line 85, about-us.css.scss */
+    .about-video-text {
+      height: 420px; } }
+  @media screen and (max-width: 360px) {
+    /* line 85, about-us.css.scss */
+    .about-video-text {
+      height: 435px; } }
+  @media screen and (max-width: 320px) {
+    /* line 85, about-us.css.scss */
+    .about-video-text {
+      height: 470px; } }
+
+/* line 101, about-us.css.scss */
+.medicos-text {
+  position: relative;
+  top: -10%;
+  width: 70%;
+  background-color: white;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 50px;
+  padding-bottom: 3%;
+  transform: translateY(-70%);
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 113, about-us.css.scss */
+  .medicos-text p {
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    padding-top: 10px; }
+    @media screen and (max-width: 1250px) {
+      /* line 113, about-us.css.scss */
+      .medicos-text p {
+        font-size: 15px; } }
+    @media screen and (max-width: 1090px) {
+      /* line 113, about-us.css.scss */
+      .medicos-text p {
+        font-size: 13px; } }
+    @media screen and (max-width: 850px) {
+      /* line 113, about-us.css.scss */
+      .medicos-text p {
+        font-size: 12px;
+        line-height: 17px; } }
+  @media screen and (max-width: 1100px) {
+    /* line 101, about-us.css.scss */
+    .medicos-text {
+      padding-top: 40px; } }
+  @media screen and (max-width: 950px) {
+    /* line 101, about-us.css.scss */
+    .medicos-text {
+      padding-top: 30px;
+      padding-bottom: 3%; } }
+  @media screen and (max-width: 750px) {
+    /* line 101, about-us.css.scss */
+    .medicos-text {
+      width: 80%;
+      transform: translateY(-5%);
+      position: relative;
+      padding-top: 15px;
+      padding-left: 2%;
+      padding-right: 2%; } }
+
+@media screen and (max-width: 755px) {
+  /* line 159, about-us.css.scss */
+  .medicos-text > p {
+    display: block;
+    font-size: 15px;
+    padding-right: 6%;
+    padding-left: 6%;
+    letter-spacing: 1px;
+    line-height: 20px; } }
+
+/* line 170, about-us.css.scss */
+.medicos-text-2 {
+  margin: 0;
+  text-align: left;
+  padding-left: 15px;
+  border-left: 5px #01ABC7 solid;
+  margin-bottom: 5%;
+  margin-top: 20px;
+  padding-top: 10px; }
+  @media screen and (max-width: 755px) {
+    /* line 170, about-us.css.scss */
+    .medicos-text-2 {
+      border-left: 5px white solid; } }
+  /* line 184, about-us.css.scss */
+  .medicos-text-2 h1 {
+    font-size: 37px;
+    color: #01ABC7;
+    line-height: 20px;
+    font-weight: 900; }
+    @media screen and (max-width: 1250px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 36px; } }
+    @media screen and (max-width: 1165px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 32px; } }
+    @media screen and (max-width: 1100px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        line-height: 34px; } }
+    @media screen and (max-width: 1090px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 32px;
+        line-height: 30px; } }
+    @media screen and (max-width: 1000px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 26px; } }
+    @media screen and (max-width: 950px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 22px;
+        line-height: 22px; } }
+    @media screen and (max-width: 755px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        padding-top: 4px;
+        font-size: 22px; } }
+    @media screen and (max-width: 375px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 20px; } }
+    @media screen and (max-width: 360px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 18px; } }
+    @media screen and (max-width: 320px) {
+      /* line 184, about-us.css.scss */
+      .medicos-text-2 h1 {
+        font-size: 16px; } }
+  /* line 223, about-us.css.scss */
+  .medicos-text-2 p {
+    margin-top: 1%;
+    color: black;
+    font-weight: 400;
+    font-style: normal; }
+    @media screen and (max-width: 755px) {
+      /* line 223, about-us.css.scss */
+      .medicos-text-2 p {
+        text-transform: uppercase;
+        font-style: normal;
+        margin-top: 0px;
+        padding-top: 5px;
+        font-size: 12px; } }
+    @media screen and (max-width: 360px) {
+      /* line 223, about-us.css.scss */
+      .medicos-text-2 p {
+        font-size: 11px; } }
+    @media screen and (max-width: 360px) {
+      /* line 223, about-us.css.scss */
+      .medicos-text-2 p {
+        font-size: 10px; } }
+  @media screen and (max-width: 755px) {
+    /* line 170, about-us.css.scss */
+    .medicos-text-2 {
+      margin-top: 0;
+      padding-top: 5px; } }
+
+/* line 255, about-us.css.scss */
+.about-ribbon {
+  height: 10px;
+  width: 70%;
+  padding: 0;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background: #24B9C9;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #24B9C9, #0F7780);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #24B9C9, #0F7780);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #24B9C9, #0F7780);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #24B9C9, #0F7780);
+  /* Standard syntax */ }
+  @media screen and (max-width: 750px) {
+    /* line 255, about-us.css.scss */
+    .about-ribbon {
+      height: 5px; } }
+
+/* line 275, about-us.css.scss */
+.about-cta-1 {
+  height: 360px;
+  background-color: wheat; }
+  @media screen and (max-width: 755px) {
+    /* line 275, about-us.css.scss */
+    .about-cta-1 {
+      height: 145px; } }
+
+/* line 283, about-us.css.scss */
+.about-info {
+  position: relative; }
+
+/* line 287, about-us.css.scss */
+.about-info-text-cont {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(1, 171, 199, 0.5);
+  position: absolute;
+  top: 0%;
+  left: 50%; }
+  @media screen and (max-width: 755px) {
+    /* line 287, about-us.css.scss */
+    .about-info-text-cont {
+      position: relative;
+      width: 100%;
+      top: unset;
+      left: unset; } }
+
+/* line 302, about-us.css.scss */
+.about-info-text {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%); }
+  /* line 306, about-us.css.scss */
+  .about-info-text p {
+    text-align: left;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 22px;
+    line-height: 35px; }
+    @media screen and (max-width: 1168px) {
+      /* line 306, about-us.css.scss */
+      .about-info-text p {
+        font-size: 20px; } }
+    @media screen and (max-width: 1062px) {
+      /* line 306, about-us.css.scss */
+      .about-info-text p {
+        font-size: 18px;
+        line-height: 31px; } }
+    @media screen and (max-width: 962px) {
+      /* line 306, about-us.css.scss */
+      .about-info-text p {
+        font-size: 16px;
+        line-height: 27px; } }
+    @media screen and (max-width: 848px) {
+      /* line 306, about-us.css.scss */
+      .about-info-text p {
+        font-size: 14px;
+        line-height: 23px; } }
+    @media screen and (max-width: 755px) {
+      /* line 306, about-us.css.scss */
+      .about-info-text p {
+        font-size: 19px;
+        line-height: 26px; } }
+  @media screen and (max-width: 755px) {
+    /* line 302, about-us.css.scss */
+    .about-info-text {
+      position: relative;
+      top: 0%;
+      transform: translatey(0%);
+      padding-top: 10%;
+      padding-bottom: 5%;
+      background: #24B9C9;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, #24B9C9, #0F7780);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, #24B9C9, #0F7780);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, #24B9C9, #0F7780);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #24B9C9, #0F7780);
+      /* Standard syntax */ } }
+
+/* line 347, about-us.css.scss */
+.md-gallery-img-i {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+/* line 353, about-us.css.scss */
+.md-gallery-img {
+  position: relative;
+  border: 1px white solid; }
+
+/* line 358, about-us.css.scss */
+.about-cta-2 {
+  height: 320px;
+  background-color: wheat; }
+  @media screen and (max-width: 755px) {
+    /* line 358, about-us.css.scss */
+    .about-cta-2 {
+      height: 140px; } }
+
+/* line 366, about-us.css.scss */
+.md-gallery-overlay {
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  background: #24B9C9;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(36, 185, 201, 0.65), rgba(15, 119, 128, 0.65));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(36, 185, 201, 0.65), rgba(15, 119, 128, 0.65));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(36, 185, 201, 0.65), rgba(15, 119, 128, 0.65));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(36, 185, 201, 0.65), rgba(15, 119, 128, 0.65));
+  /* Standard syntax */ }
+
+/* line 383, about-us.css.scss */
+.md-gallery-overlay-text {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  padding: 0 10%; }
+  /* line 388, about-us.css.scss */
+  .md-gallery-overlay-text h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 44px; }
+    @media screen and (max-width: 1492px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 28px;
+        line-height: 40px; } }
+    @media screen and (max-width: 1388px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 26px;
+        line-height: 36px; } }
+    @media screen and (max-width: 1289px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 24px;
+        line-height: 32px; } }
+    @media screen and (max-width: 1188px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 22px;
+        line-height: 28px; } }
+    @media screen and (max-width: 1094px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 20px;
+        line-height: 24px; } }
+    @media screen and (max-width: 982px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 18px; } }
+    @media screen and (max-width: 892px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 16px;
+        line-height: 20px; } }
+    @media screen and (max-width: 862px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 15px;
+        line-height: 18px; } }
+    @media screen and (max-width: 830px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 14px;
+        line-height: 16px; } }
+    @media screen and (max-width: 783px) {
+      /* line 388, about-us.css.scss */
+      .md-gallery-overlay-text h1 {
+        font-size: 13px;
+        line-height: 14px; } }
+  /* line 433, about-us.css.scss */
+  .md-gallery-overlay-text h2 {
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 3%; }
+    @media screen and (max-width: 1492px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        font-size: 17px; } }
+    @media screen and (max-width: 1388px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        font-size: 15px; } }
+    @media screen and (max-width: 1188px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        font-size: 14px;
+        line-height: 20px; } }
+    @media screen and (max-width: 1094px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        line-height: 16px; } }
+    @media screen and (max-width: 862px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        line-height: 15px; } }
+    @media screen and (max-width: 830px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        font-size: 13px; } }
+    @media screen and (max-width: 783px) {
+      /* line 433, about-us.css.scss */
+      .md-gallery-overlay-text h2 {
+        font-size: 12px; } }
+  /* line 462, about-us.css.scss */
+  .md-gallery-overlay-text p {
+    color: white;
+    font-size: 19px;
+    padding-top: 7.5%; }
+    @media screen and (max-width: 1492px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        font-size: 17px; } }
+    @media screen and (max-width: 1388px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        font-size: 15px; } }
+    @media screen and (max-width: 1188px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        font-size: 14px;
+        line-height: 20px; } }
+    @media screen and (max-width: 1094px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        line-height: 16px;
+        padding-top: 2%;
+        margin-bottom: 0; } }
+    @media screen and (max-width: 862px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        line-height: 15px; } }
+    @media screen and (max-width: 830px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        font-size: 13px; } }
+    @media screen and (max-width: 783px) {
+      /* line 462, about-us.css.scss */
+      .md-gallery-overlay-text p {
+        font-size: 12px; } }
+
+/* line 499, about-us.css.scss */
+#md-01:hover #md-01-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-02:hover #md-02-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-03:hover #md-03-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-04:hover #md-04-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-05:hover #md-05-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-06:hover #md-06-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-07:hover #md-07-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-08:hover #md-08-o {
+  opacity: 1; }
+
+/* line 499, about-us.css.scss */
+#md-09:hover #md-09-o {
+  opacity: 1; }
+
+@media screen and (max-width: 755px) {
+  /* line 505, about-us.css.scss */
+  .md-gallery-overlay {
+    display: none; } }
